@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1A1A"
+    >
+<CheckBox
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="Any message"
+    android:id="@+id/check1"
+    android:textColor="#E1E1E1"
+    android:layout_centerHorizontal="true"
+    />
+    
+    <CheckBox
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Custom message"
+        android:id="@+id/check2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/check1"
+        android:textColor="#E1E1E1"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="REPLY"
+        android:layout_below="@+id/check2"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
