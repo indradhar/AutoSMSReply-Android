@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1C1A1A"
+    android:padding="15dp"
     >
     <Button
         android:id="@+id/btn1"
@@ -30,6 +31,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/btn1"
         android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
         />
     <FrameLayout
         android:id="@+id/frame1"
