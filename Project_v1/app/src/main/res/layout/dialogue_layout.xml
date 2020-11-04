@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="match_parent">
     <EditText
         android:layout_width="match_parent"
@@ -9,4 +10,53 @@
         android:hint="Enter the message"
         android:id="@+id/edit1"
         />
+=======
+    android:layout_height="match_parent"
+    android:background="#7A636161"
+    android:padding="15dp"
+    >
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Reply For Any Message"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Message"
+        android:id="@+id/edit1"
+        android:layout_below="@+id/view1"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        android:layout_below="@+id/edit1"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_below="@+id/edit1"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+
+>>>>>>> firstbranch
 </RelativeLayout>

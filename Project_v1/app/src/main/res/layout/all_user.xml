@@ -4,6 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1C1A1A"
+<<<<<<< HEAD
+=======
+    android:padding="15dp"
+>>>>>>> firstbranch
     >
 <CheckBox
     android:layout_width="200dp"
