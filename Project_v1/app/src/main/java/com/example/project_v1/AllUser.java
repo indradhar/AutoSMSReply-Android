@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -46,8 +47,7 @@ public class AllUser extends Fragment {
     }
     public void startToast()
     {
-
-
+        Toast.makeText(getActivity(), "Check only one option", Toast.LENGTH_SHORT).show();
     }
     public void startDialogue()
     {
@@ -56,7 +56,7 @@ public class AllUser extends Fragment {
     }
     public void startCustomMessageActivity()
     {
-        Intent intent = new Intent(getActivity(),CustomMessage.class);
+       Intent intent = new Intent(getActivity(),CustomMessage.class);
         startActivity(intent);
     }
 }
