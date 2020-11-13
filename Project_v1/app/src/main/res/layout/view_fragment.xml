@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/activity_bgcolor"
+    >
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="15dp"
-    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:background="@drawable/activity_bgcolor"
     >
-    <ListView
-        android:id="@+id/lv1"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:text="Custom message"
+        android:textAlignment="center"
+        android:textColor="@color/focus_colour"
+        android:id="@+id/view1"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:text="Any message"
+        android:textAlignment="center"
+        android:textColor="@color/othertabcolor"
+        android:id="@+id/view2"
+        android:layout_weight="1"
         />
 </LinearLayout>
+   <androidx.viewpager.widget.ViewPager
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="30dp"
+       android:id="@+id/vp1"
+       />
+</RelativeLayout>

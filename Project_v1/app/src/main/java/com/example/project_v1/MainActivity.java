@@ -74,7 +74,10 @@ public class MainActivity extends AppCompatActivity {
     }
     void viewDatabase()
     {
-
-
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        ViewFragment frame1 = new ViewFragment();
+        fragmentTransaction.replace(R.id.frame1,frame1);
+        fragmentTransaction.commit();
     }
 }
