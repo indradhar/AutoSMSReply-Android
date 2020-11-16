@@ -3,7 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/tabbg_color">
+    android:background="@drawable/view_bgm"
+    android:padding="15dp">
+
 
     <Button
         android:layout_width="match_parent"
@@ -11,8 +13,8 @@
         android:text="Any User"
         android:textSize="20dp"
         android:id="@+id/btn1"
-        android:layout_marginLeft="7dp"
         android:layout_centerVertical="true"
+        android:background="@drawable/tabbg_color"
         />
     <Button
         android:layout_width="match_parent"
@@ -20,7 +22,9 @@
         android:text="custom user"
         android:textSize="20dp"
         android:id="@+id/btn2"
-        android:layout_marginRight="7dp"
+        android:background="@drawable/tabbg_color"
+        android:layout_marginTop="10dp"
+
         android:layout_below="@+id/btn1"
         />
 

@@ -1,5 +1,6 @@
 package com.example.project_v1;
 
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -70,5 +71,7 @@ public class DialogueAllUser extends DialogFragment {
         {
             Toast.makeText(getActivity(), "Error : "+e, Toast.LENGTH_SHORT).show();
         }
+        Intent intent = new Intent(getActivity(),MainActivity.class);
+        startActivity(intent);
     }
 }

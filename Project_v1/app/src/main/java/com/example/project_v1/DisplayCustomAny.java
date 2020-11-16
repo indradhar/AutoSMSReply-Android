@@ -75,7 +75,7 @@ public class DisplayCustomAny extends AppCompatActivity
         {
             String incomingmessage = cur.getString(0);
             String outgoingmessage = cur.getString(1);
-            al.add(incomingmessage+"\n"+outgoingmessage);
+            al.add("Incoming Message: "+" "+incomingmessage+"\n"+"Outgoing Message: "+outgoingmessage);
         }
         cur.close();
         ArrayAdapter aa = new ArrayAdapter(DisplayCustomAny.this,android.R.layout.simple_list_item_1,al);

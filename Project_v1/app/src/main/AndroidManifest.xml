@@ -14,7 +14,8 @@
         <activity android:name=".CustomMessage" android:parentActivityName=".MainActivity" />
         <activity android:name=".DisplayCustomAny" android:parentActivityName=".MainActivity" />
         <activity android:name=".DisplayAnyAny" android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

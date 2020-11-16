@@ -34,6 +34,7 @@
         android:textStyle="bold"
         android:textSize="20dp"
         android:textAlignment="center"
+        android:background="#7A636161"
         />
     <TextView
         android:id="@+id/view3"
@@ -47,6 +48,7 @@
         android:textStyle="bold"
         android:textSize="20dp"
         android:textAlignment="center"
+        android:background="#39AFE8"
         />
 
 </RelativeLayout>

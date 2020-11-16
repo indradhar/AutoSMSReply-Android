@@ -74,7 +74,7 @@ public class DisplayAnyAny extends AppCompatActivity
         while(cur.moveToNext())
         {
             String outgoingmessage = cur.getString(0);
-            al.add(outgoingmessage);
+            al.add("Outgoing Message: "+outgoingmessage);
         }
         cur.close();
         ArrayAdapter aa = new ArrayAdapter(DisplayAnyAny.this,android.R.layout.simple_list_item_1,al);
