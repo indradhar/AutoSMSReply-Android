@@ -62,5 +62,7 @@ public class CustomMessage extends AppCompatActivity
             {
                 Toast.makeText(CustomMessage.this, "Error : "+e, Toast.LENGTH_SHORT).show();
             }
+            Intent intent = new Intent(CustomMessage.this,MainActivity.class);
+            startActivity(intent);
         }
 }

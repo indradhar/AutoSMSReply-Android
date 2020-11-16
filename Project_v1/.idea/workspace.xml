@@ -14,11 +14,20 @@
   <component name="ChangeListManager">
     <list default="true" id="bc67f3f7-f3b1-4869-a478-849a9f726fb2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_v1/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_v1/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_v1/CustomMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_v1/CustomMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_v1/DialogueAllUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_v1/DialogueAllUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_v1/DisplayAnyAny.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_v1/DisplayAnyAny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_v1/DisplayCustomAny.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_v1/DisplayCustomAny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/activity_bgcolor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/activity_bgcolor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/all_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/all_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialogue_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialogue_layout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_layout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
         <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -54,9 +63,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\android\autoReply-main\Android-Application\Project_v1\app\src\main\java\com\example\project_v1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\android\autoReply-main\Android-Application\Project_v1\app\src\main\res\layout" />
     </key>
@@ -141,34 +153,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="90" key="#com.intellij.ide.util.MemberChooser" timestamp="1604516038035">
+    <state x="488" y="90" key="#com.intellij.ide.util.MemberChooser" timestamp="1605424121079">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="488" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1604516038035" />
-    <state x="349" y="143" key="AndroidCreateResourceFileDialog" timestamp="1605297675554">
+    <state x="488" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1605424121079" />
+    <state x="349" y="143" key="AndroidCreateResourceFileDialog" timestamp="1605532018153">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="349" y="143" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1605297675554" />
+    <state x="349" y="143" key="AndroidCreateResourceFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1605532018153" />
+    <state x="263" y="88" key="AndroidThemeDialog" timestamp="1605528895284">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="263" y="88" key="AndroidThemeDialog/0.0.1366.768@0.0.1366.768" timestamp="1605528895284" />
     <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1605284392812">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1605284392812" />
-    <state width="1322" height="150" key="GridCell.Tab.0.bottom" timestamp="1604521910872">
+    <state width="1322" height="192" key="GridCell.Tab.0.bottom" timestamp="1605534947959">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="150" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604521910872" />
-    <state width="1322" height="150" key="GridCell.Tab.0.center" timestamp="1604521910872">
+    <state width="1322" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1605534947959" />
+    <state width="1322" height="192" key="GridCell.Tab.0.center" timestamp="1605534947958">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="150" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604521910872" />
-    <state width="1322" height="150" key="GridCell.Tab.0.left" timestamp="1604521910872">
+    <state width="1322" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1605534947958" />
+    <state width="1322" height="192" key="GridCell.Tab.0.left" timestamp="1605534947958">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="150" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604521910872" />
-    <state width="1322" height="150" key="GridCell.Tab.0.right" timestamp="1604521910872">
+    <state width="1322" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1605534947958" />
+    <state width="1322" height="192" key="GridCell.Tab.0.right" timestamp="1605534947959">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="150" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604521910872" />
+    <state width="1322" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1605534947959" />
     <state x="197" y="126" key="IDE.errors.dialog" timestamp="1604427311873">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

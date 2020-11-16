@@ -3,10 +3,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="#1C1A1A"
 <<<<<<< HEAD
 =======
     android:padding="15dp"
+>>>>>>> firstbranch
+=======
+    android:background="@drawable/activity_bgm"
+    android:paddingTop="15dp"
 >>>>>>> firstbranch
     >
     <Button
@@ -16,6 +21,7 @@
         android:text="Custom Users"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
+        android:background="@drawable/tabbg_color"
         />
     <Button
         android:id="@+id/btn2"
@@ -25,6 +31,7 @@
         android:layout_marginTop="50dp"
         android:layout_alignParentRight="true"
         android:layout_marginRight="50dp"
+        android:background="@drawable/tabbg_color"
         />
     <Button
         android:id="@+id/btn3"
@@ -37,6 +44,10 @@
 <<<<<<< HEAD
 =======
         android:layout_marginBottom="50dp"
+<<<<<<< HEAD
+>>>>>>> firstbranch
+=======
+        android:background="@drawable/tabbg_color"
 >>>>>>> firstbranch
         />
     <FrameLayout
@@ -44,6 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/btn3"
+        android:background="@drawable/frame_bgm"
         />
 
 </RelativeLayout>

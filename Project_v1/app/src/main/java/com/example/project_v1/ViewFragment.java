@@ -73,15 +73,15 @@ public class ViewFragment extends Fragment
              textView.setTextColor(getResources().getColor((R.color.focus_colour)));
 
              textView1.setTextSize(20);
-             textView.setTextColor(getResources().getColor((R.color.othertabcolor)));
+             textView1.setTextColor(getResources().getColor((R.color.othertabcolor)));
          }
-         if(position==1)
+         else if(position==1)
          {
              textView.setTextSize(20);
              textView.setTextColor(getResources().getColor((R.color.othertabcolor)));
 
              textView1.setTextSize(25);
-             textView.setTextColor(getResources().getColor((R.color.focus_colour)));
+             textView1.setTextColor(getResources().getColor((R.color.focus_colour)));
          }
      }
 

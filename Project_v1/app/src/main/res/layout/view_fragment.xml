@@ -3,15 +3,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="15dp"
+    android:paddingTop="15dp"
     android:background="@drawable/activity_bgcolor"
     >
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="30dp"
     android:orientation="horizontal"
-    android:background="@drawable/activity_bgcolor"
+    android:id="@+id/linear"
     >
     <TextView
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
    <androidx.viewpager.widget.ViewPager
        android:layout_width="match_parent"
        android:layout_height="match_parent"
-       android:layout_marginTop="30dp"
+       android:layout_below="@id/linear"
        android:id="@+id/vp1"
        />
 </RelativeLayout>
