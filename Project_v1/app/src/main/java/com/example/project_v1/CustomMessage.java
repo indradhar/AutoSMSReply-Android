@@ -9,7 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class CustomMessage extends AppCompatActivity
 {
@@ -18,7 +20,12 @@ public class CustomMessage extends AppCompatActivity
         {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.custom_message);
-
+//here
+            Toolbar toolbar = findViewById(R.id.toolbar);
+            setSupportActionBar(toolbar);
+            getSupportActionBar().setTitle("Custom Message");
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//to here
             Button button = (Button)findViewById(R.id.btn1);
             EditText editText=(EditText)findViewById(R.id.edit1);
             EditText editText1=(EditText)findViewById(R.id.edit2);

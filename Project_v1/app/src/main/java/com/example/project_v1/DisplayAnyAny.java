@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import java.util.ArrayList;
 
@@ -26,6 +27,10 @@ public class DisplayAnyAny extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dispay_layout);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Custom Message");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         lvShow = findViewById(R.id.lvShow);
         db = openOrCreateDatabase("DATABASE_MESSAGES",MODE_PRIVATE,null);

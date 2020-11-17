@@ -4,16 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/custom_message_bgm"
-    android:padding="15dp"
+
     >
+    <include layout="@layout/toolbar"
+        android:id="@+id/tb"
+        />
     <TextView
         android:id="@+id/view1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tb"
         android:text = "Enter Incoming Text : "
         android:textSize="20dp"
         android:textColor="#040202"
         android:layout_marginTop="30dp"
+        android:padding="10dp"
         />
     <EditText
         android:id="@+id/edit1"
@@ -22,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/view1"
+        android:padding="10dp"
         />
     <TextView
         android:id="@+id/view2"
@@ -32,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edit1"
+        android:padding="10dp"
         />
     <EditText
         android:id="@+id/edit2"
@@ -40,6 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/view2"
+        android:padding="10dp"
         />
 
     <Button
