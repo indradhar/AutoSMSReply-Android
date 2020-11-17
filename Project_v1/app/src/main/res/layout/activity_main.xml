@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/activity_bgm"
-    android:paddingTop="15dp"
     >
+    <include layout="@layout/toolbar"
+        android:id="@+id/tb"
+        />
     <Button
         android:id="@+id/btn1"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="Custom Users"
-        android:layout_marginTop="50dp"
+        android:layout_below="@+id/tb"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="50dp"
         android:background="@drawable/tabbg_color"
         />
@@ -20,7 +24,8 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="ALL Users"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tb"
         android:layout_alignParentRight="true"
         android:layout_marginRight="50dp"
         android:background="@drawable/tabbg_color"

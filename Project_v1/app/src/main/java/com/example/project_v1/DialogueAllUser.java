@@ -26,6 +26,7 @@ public class DialogueAllUser extends DialogFragment {
         TextView textView=(TextView)view.findViewById(R.id.view2);
         TextView textView1=(TextView)view.findViewById(R.id.view3);
 
+
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
