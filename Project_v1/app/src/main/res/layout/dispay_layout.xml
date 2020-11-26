@@ -6,14 +6,11 @@
     android:orientation="vertical"
     android:background="@drawable/activity_bgcolor"
     >
-    <include layout="@layout/toolbar"
-        android:id="@+id/tb"
-        />
+
     <ListView
         android:id="@+id/lvShow"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         />
 
 </LinearLayout>

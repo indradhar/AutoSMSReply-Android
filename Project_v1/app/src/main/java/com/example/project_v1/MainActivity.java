@@ -1,10 +1,5 @@
 package com.example.project_v1;
 
-<<<<<<< HEAD
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-=======
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -17,10 +12,11 @@ import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
->>>>>>> firstbranch
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-<<<<<<< HEAD
-=======
         if (Build.VERSION.SDK_INT >= 26)//android 8.0
         {
             if (ContextCompat.checkSelfPermission(MainActivity.this, "android.permission.RECEIVE_SMS") != PackageManager.PERMISSION_GRANTED)
@@ -82,16 +76,37 @@ public class MainActivity extends AppCompatActivity {
     }
     void viewDatabase()
     {
-<<<<<<< HEAD
-
-
->>>>>>> firstbranch
-=======
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         ViewFragment frame1 = new ViewFragment();
         fragmentTransaction.replace(R.id.frame1,frame1);
         fragmentTransaction.commit();
->>>>>>> firstbranch
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        getMenuInflater().inflate(R.menu.main,menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        int id = item.getItemId();
+        switch (id)
+        {
+            case R.id.info1:
+                DialogueAbout dialogueabout=new DialogueAbout();//opening dialogue
+                dialogueabout.show(getSupportFragmentManager(),null);
+                break;
+            case R.id.power:
+                DialogueService dialogueservice=new DialogueService();//opening dialogue
+                dialogueservice.show(getSupportFragmentManager(),null);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

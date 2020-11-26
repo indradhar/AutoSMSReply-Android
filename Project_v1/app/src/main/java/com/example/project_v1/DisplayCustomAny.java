@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+
 
 import java.util.ArrayList;
 
@@ -27,12 +27,6 @@ public class DisplayCustomAny extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dispay_layout);
-        
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Custom Message");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         lvShow = findViewById(R.id.lvShow);
         db = openOrCreateDatabase("DATABASE_MESSAGES",MODE_PRIVATE,null);
         load();
@@ -81,7 +75,7 @@ public class DisplayCustomAny extends AppCompatActivity
         {
             String incomingmessage = cur.getString(0);
             String outgoingmessage = cur.getString(1);
-            al.add("Incoming Message: "+" "+incomingmessage+"\n"+"Outgoing Message: "+outgoingmessage);
+            al.add(incomingmessage+"\n"+outgoingmessage);
         }
         cur.close();
         ArrayAdapter aa = new ArrayAdapter(DisplayCustomAny.this,android.R.layout.simple_list_item_1,al);

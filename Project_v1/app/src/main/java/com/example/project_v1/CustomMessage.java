@@ -21,10 +21,10 @@ public class CustomMessage extends AppCompatActivity
             super.onCreate(savedInstanceState);
             setContentView(R.layout.custom_message);
 //here
-            Toolbar toolbar = findViewById(R.id.toolbar);
+          /*  Toolbar toolbar = findViewById(R.id.toolbar);
             setSupportActionBar(toolbar);
             getSupportActionBar().setTitle("Custom Message");
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
 //to here
             Button button = (Button)findViewById(R.id.btn1);
             EditText editText=(EditText)findViewById(R.id.edit1);

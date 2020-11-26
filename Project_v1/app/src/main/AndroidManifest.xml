@@ -15,7 +15,9 @@
         <activity android:name=".DisplayCustomAny" android:parentActivityName=".MainActivity" />
         <activity android:name=".DisplayAnyAny" android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity"/>
-        <activity android:name=".HomeActivity">
+        <activity android:name=".HomeActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

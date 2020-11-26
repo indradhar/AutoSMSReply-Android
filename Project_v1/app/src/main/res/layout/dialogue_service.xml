@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A636161"
+    >
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Suitable Services"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <CheckBox
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Custom User_Custom Message"
+        android:id="@+id/check1"
+        android:textColor="#070505"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/view1"
+        android:textAlignment="center"
+        />
+    <CheckBox
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Custom User_Any Message"
+        android:id="@+id/check2"
+        android:textColor="#070505"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/check1"
+        android:textAlignment="center"
+        />
+    <CheckBox
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Any User_Custom Message"
+        android:id="@+id/check3"
+        android:textColor="#070505"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/check2"
+        android:textAlignment="center"
+        />
+    <CheckBox
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Any User_Any Message"
+        android:id="@+id/check4"
+        android:textColor="#070505"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/check3"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        android:layout_below="@+id/check4"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="#7A636161"
+        />
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_below="@+id/check4"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="#39AFE8"
+        />
+
+</RelativeLayout>

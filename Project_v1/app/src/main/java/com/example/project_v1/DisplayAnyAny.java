@@ -27,10 +27,10 @@ public class DisplayAnyAny extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dispay_layout);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+    /*    Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Custom Message");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
 
         lvShow = findViewById(R.id.lvShow);
         db = openOrCreateDatabase("DATABASE_MESSAGES",MODE_PRIVATE,null);
@@ -79,7 +79,7 @@ public class DisplayAnyAny extends AppCompatActivity
         while(cur.moveToNext())
         {
             String outgoingmessage = cur.getString(0);
-            al.add("Outgoing Message: "+outgoingmessage);
+            al.add(outgoingmessage);
         }
         cur.close();
         ArrayAdapter aa = new ArrayAdapter(DisplayAnyAny.this,android.R.layout.simple_list_item_1,al);
