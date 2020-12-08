@@ -10,16 +10,17 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Any User"
+        android:text="Any Contact"
         android:textSize="20dp"
         android:id="@+id/btn1"
         android:layout_centerVertical="true"
         android:background="@drawable/tabbg_color"
+        android:layout_marginBottom="20dp"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="custom user"
+        android:text="custom contact"
         android:textSize="20dp"
         android:id="@+id/btn2"
         android:background="@drawable/tabbg_color"

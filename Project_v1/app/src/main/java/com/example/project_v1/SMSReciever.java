@@ -9,12 +9,19 @@ import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.telephony.SmsMessage;
 import android.util.Log;
+import android.widget.Toast;
 
 import java.util.HashMap;
 
 public class SMSReciever extends BroadcastReceiver
 {
+      //  DialogueService dialogueService=new DialogueService();
+        //int service3=dialogueService.service3;
         SQLiteDatabase db;
+
+
+
+
         public void onReceive(Context context, Intent intent)
         {
             Bundle bundle = intent.getExtras();
@@ -23,34 +30,37 @@ public class SMSReciever extends BroadcastReceiver
             String sendermobileno = sm.getDisplayOriginatingAddress();
             String message = sm.getDisplayMessageBody();
             HashMap hm = new HashMap();
-            DialogueService dialogueService=new DialogueService();
-            int service1=dialogueService.service1;
 
-           /* if(dialogueService.service1==1)
-            {
 
-            }
-            if(dialogueService.service2==1)
-            {
+               db = context.openOrCreateDatabase("DATABASE_MESSAGES", Context.MODE_PRIVATE, null);
+                Cursor cur2 = db.rawQuery("select * from custom_user_messages", null);
+                while (cur2.moveToNext()) {
+                    hm.put(cur2.getString(2), cur2.getString(0));
+                }
+                if (hm.containsKey(sendermobileno))
+                {
+                    String omessage = hm.get(sendermobileno).toString();
+                    SmsManager sms = SmsManager.getDefault();
+                    sms.sendTextMessage(sendermobileno, null, omessage, null, null);
+                }
 
-            }
-            if(dialogueService.service3==1)
-            {*/
+
+
                 db = context.openOrCreateDatabase("DATABASE_MESSAGES", Context.MODE_PRIVATE, null);
                 Cursor cur = db.rawQuery("select * from custom_messages", null);
                 while (cur.moveToNext()) {
                     hm.put(cur.getString(0), cur.getString(1));
                 }
-                if (hm.containsKey(message)) {
+                if (hm.containsKey(message))
+                {
                     String omessage = hm.get(message).toString();
                     SmsManager sms = SmsManager.getDefault();
                     sms.sendTextMessage(sendermobileno, null, omessage, null, null);
                 }
-            //}
-           // Log.d(null,"Service is recieved");
-            //if(service1==1)
-            //{
-               /* Log.d(null,"Service is activated");
+
+
+
+               /*
                 db = context.openOrCreateDatabase("DATABASE_MESSAGES", Context.MODE_PRIVATE, null);
                 Cursor cur1 = db.rawQuery("select * from messages", null);
                 if(cur1!=null)
@@ -63,7 +73,7 @@ public class SMSReciever extends BroadcastReceiver
                     SmsManager sms = SmsManager.getDefault();
                     sms.sendTextMessage(sendermobileno, null, omessage, null, null);
 
-                }
-            //}*/
+                }*/
+
         }
 }

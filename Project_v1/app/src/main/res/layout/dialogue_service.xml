@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7A636161"
+    android:background="#00ACC1"
     >
     <TextView
         android:id="@+id/view1"
@@ -14,19 +14,19 @@
         android:textStyle="bold"
         android:textAlignment="center"
         />
+
     <CheckBox
-        android:layout_width="230dp"
-        android:layout_height="wrap_content"
-        android:text="Custom User_Custom Message"
         android:id="@+id/check1"
-        android:textColor="#070505"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/view1"
+        android:layout_centerInParent="true"
+        android:text="Custom User_Custom Message"
         android:textAlignment="center"
-        />
+        android:textColor="#070505"
+        android:textSize="20dp" />
     <CheckBox
-        android:layout_width="230dp"
+        android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:text="Custom User_Any Message"
         android:id="@+id/check2"
@@ -35,9 +35,11 @@
         android:layout_centerVertical="true"
         android:layout_below="@id/check1"
         android:textAlignment="center"
+        android:textSize="20dp"
         />
     <CheckBox
-        android:layout_width="230dp"
+        android:layout_width="365dp"
+        android:textSize="20dp"
         android:layout_height="wrap_content"
         android:text="Any User_Custom Message"
         android:id="@+id/check3"
@@ -48,7 +50,8 @@
         android:textAlignment="center"
         />
     <CheckBox
-        android:layout_width="230dp"
+        android:layout_width="365dp"
+        android:textSize="20dp"
         android:layout_height="wrap_content"
         android:text="Any User_Any Message"
         android:id="@+id/check4"

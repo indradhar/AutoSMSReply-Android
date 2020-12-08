@@ -29,7 +29,7 @@
         >
 
         <LinearLayout
-            android:background="#abffc0"
+            android:background="#FB8C00"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -46,7 +46,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
-                    android:text="demo@noreply.com"
+                    android:text="indradhar.paka@gmail.com"
                     android:textAlignment="center"
                     android:textSize="25dp"
                     android:textStyle="bold" />
@@ -65,7 +65,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="if you find any bugs please mail to us"
+                    android:text="Please mail and report us if you find any bug"
                     android:textSize="18dp" />
 
                 <TextView

@@ -3,6 +3,7 @@
     package="com.example.project_v1">
     <uses-permission android:name="android.permission.RECEIVE_SMS"/>
     <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
         android:allowBackup="true"
@@ -12,7 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_v1">
         <activity android:name=".CustomMessage" android:parentActivityName=".MainActivity" />
+        <activity android:name=".CustomUserMessage" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".CustomUserAny" android:parentActivityName=".MainActivity"/>
         <activity android:name=".DisplayCustomAny" android:parentActivityName=".MainActivity" />
+        <activity android:name=".DisplayAnyCustom" android:parentActivityName=".MainActivity" />
+        <activity android:name=".DisplayCustomCustom" android:parentActivityName=".MainActivity" />
         <activity android:name=".DisplayAnyAny" android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity"/>
         <activity android:name=".HomeActivity"
@@ -26,6 +31,7 @@
         <receiver android:name=".SMSReciever">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+
             </intent-filter>
         </receiver>
 

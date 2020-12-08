@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="focus_colour">#DF2199</color>
     <color name="othertabcolor">#87BBE4</color>
+    <color name="colorPrimary">#1E88E5</color>
 </resources>

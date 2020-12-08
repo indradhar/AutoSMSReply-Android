@@ -137,6 +137,7 @@ public class ViewAllFragment extends Fragment {
 
     void viewAny_CustomUser()
     {
-
+        Intent intent = new Intent(getActivity(),DisplayAnyCustom.class);
+        startActivity(intent);
     }
 }

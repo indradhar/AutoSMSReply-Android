@@ -121,6 +121,8 @@ public class ViewCustomFragment extends Fragment
 
    void viewCustom_CustomUser()
    {
+       Intent intent = new Intent(getActivity(),DisplayCustomCustom.class);
+       startActivity(intent);
 
    }
 }

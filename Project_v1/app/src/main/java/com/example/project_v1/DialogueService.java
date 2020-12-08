@@ -1,5 +1,7 @@
 package com.example.project_v1;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,15 +33,15 @@ public class DialogueService extends DialogFragment {
             @Override
             public void onClick(View view)
             {
-               /*if(checkBox.isChecked()){
+               if(checkBox.isChecked() && !(checkBox1.isChecked()) && !(checkBox2.isChecked()) && !(checkBox3.isChecked())){
                         service1=1;
                         service2=0;
                         service3=0;
                         service4=0;
-                        Toast.makeText(getActivity(), "Service1", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Service1 started", Toast.LENGTH_SHORT).show();
                         getDialog().dismiss();
                     }
-               if(checkBox1.isChecked()){
+              else if(checkBox1.isChecked()&& !(checkBox.isChecked()) && !(checkBox2.isChecked()) && !(checkBox3.isChecked())){
                         service1=0;
                         service2=1;
                         service3=0;
@@ -47,32 +49,35 @@ public class DialogueService extends DialogFragment {
                         Toast.makeText(getActivity(), "Service2", Toast.LENGTH_SHORT).show();
                         getDialog().dismiss();
                     }
-               if(checkBox2.isChecked()){
+              else if(checkBox2.isChecked()&& !(checkBox.isChecked()) && !(checkBox1.isChecked()) && !(checkBox3.isChecked())){
                         service1=0;
                         service2=0;
                         service3=1;
                         service4=0;
-                        Toast.makeText(getActivity(), "Service2", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Service3", Toast.LENGTH_SHORT).show();
                         getDialog().dismiss();
                     }
-               if(checkBox3.isChecked()){
+              else if(checkBox3.isChecked()&& !(checkBox.isChecked()) && !(checkBox1.isChecked()) && !(checkBox2.isChecked())){
                         service1=0;
                         service2=0;
                         service3=0;
                         service4=1;
-                   Toast.makeText(getActivity(), "Service3", Toast.LENGTH_SHORT).show();
+                   Toast.makeText(getActivity(), "Service4", Toast.LENGTH_SHORT).show();
+                   getDialog().dismiss();
                     }
-               if(checkBox1.isChecked() && checkBox.isChecked()){
+              else if(checkBox1.isChecked() && checkBox.isChecked() && !(checkBox2.isChecked()) && !(checkBox3.isChecked()) ){
                         service1=1;
                         service2=1;
                         service3=0;
                         service4=0;
+                   Toast.makeText(getActivity(), "Service1 & Service2", Toast.LENGTH_SHORT).show();
+                   getDialog().dismiss();
                     }
                else
                    {
                        Toast.makeText(getActivity(), "Invalid Selection", Toast.LENGTH_SHORT).show();
                    }
-                    getDialog().dismiss();*/
+               getDialog().dismiss();
                 }
 
         });

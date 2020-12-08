@@ -4,28 +4,28 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/activity_bgm"
+    android:background="#435A64"
     >
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="100dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Custom Users"
+        android:text="Custom Contacts"
         android:layout_below="@+id/tb"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:background="@drawable/tabbg_color"
         />
     <Button
         android:id="@+id/btn2"
-        android:layout_width="100dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="ALL Users"
-        android:layout_marginTop="10dp"
+        android:text="Any Contacts"
+        android:layout_marginTop="50dp"
         android:layout_below="@+id/tb"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="50dp"
+        android:layout_marginRight="45dp"
         android:background="@drawable/tabbg_color"
         />
     <Button
@@ -36,7 +36,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/btn1"
         android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="80dp"
         android:background="@drawable/tabbg_color"
         />
     <FrameLayout
@@ -45,6 +45,7 @@
         android:layout_height="match_parent"
         android:layout_below="@id/btn3"
         android:background="@drawable/frame_bgm"
+
         />
 
 </RelativeLayout>
