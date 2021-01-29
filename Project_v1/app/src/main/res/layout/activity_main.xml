@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#435A64"
+    android:background="#1877f2"
     >
 
     <Button
@@ -44,9 +44,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/btn3"
-        android:background="@drawable/frame_bgm"
-
+        android:background="@drawable/back_activity"
         />
+
+
 
 </RelativeLayout>
 
