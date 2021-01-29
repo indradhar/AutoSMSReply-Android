@@ -10,23 +10,18 @@
         android:id="@+id/appview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:layout_marginEnd="148dp"
-        android:layout_marginRight="148dp"
-        android:layout_marginBottom="68dp"
-        android:text="Auto SMS"
-        android:textSize="26dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgview"
+        android:text="AUTO SMS"
+        android:textSize="30dp" />
 
     <ImageView
-
-        android:layout_width="226dp"
-        android:layout_height="212dp"
-        android:layout_above="@id/appview"
+        android:id="@+id/imgview"
+        android:layout_width="254dp"
+        android:layout_height="249dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="167dp"
-        android:src="@drawable/autoreply" />
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="138dp"
+        android:src="@drawable/icon_splash" />
 
 </RelativeLayout>
