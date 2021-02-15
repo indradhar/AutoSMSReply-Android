@@ -32,7 +32,7 @@ public class SMSReciever extends BroadcastReceiver
             HashMap hm = new HashMap();
 
 
-               db = context.openOrCreateDatabase("DATABASE_MESSAGES", Context.MODE_PRIVATE, null);
+              db = context.openOrCreateDatabase("DATABASE_MESSAGES", Context.MODE_PRIVATE, null);
                 Cursor cur2 = db.rawQuery("select * from custom_user_messages", null);
                 while (cur2.moveToNext()) {
                     hm.put(cur2.getString(2), cur2.getString(0));
@@ -60,9 +60,9 @@ public class SMSReciever extends BroadcastReceiver
 
 
 
-               /*
-                db = context.openOrCreateDatabase("DATABASE_MESSAGES", Context.MODE_PRIVATE, null);
-                Cursor cur1 = db.rawQuery("select * from messages", null);
+
+              //  db = context.openOrCreateDatabase("DATABASE_MESSAGES", Context.MODE_PRIVATE, null);
+              /*  Cursor cur1 = db.rawQuery("select * from messages", null);
                 if(cur1!=null)
                 {
                     String omessage = null;

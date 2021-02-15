@@ -1,2 +1,2 @@
 # Android-Application
-Creating projects on android application using java
+This Repository has android application which sends automatic reply for SMS based on the functionality 

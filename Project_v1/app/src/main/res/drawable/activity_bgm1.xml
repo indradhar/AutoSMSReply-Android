@@ -5,6 +5,5 @@
         android:endColor="#5DD3B7"
         >
     </gradient>
-    <corners android:topLeftRadius="20dp" android:topRightRadius="20dp"/>
 
 </shape>
