@@ -74,7 +74,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="1dp"
-                    android:text="Thank You"
+                    android:text="Custom M Any C : Any M Custom C"
                     android:textAlignment="center"
                     android:textSize="20dp"
                     android:textStyle="bold" />
